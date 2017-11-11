@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700');
+
+h1, h2, h3, h4, h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #3f51b5;
+}
+
+.select-dropdown li.disabled, .select-dropdown li.disabled > span, .select-dropdown li.optgroup {
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #3f51b5;
+}
+
+.select-wrapper {
+    margin-top: 10px;
+}
+
+.brand-logo {
+    margin-left: 15px;
+}
+
+.btn-large {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.mainpanel {
+    margin: 50px;
+}
